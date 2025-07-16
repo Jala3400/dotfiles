@@ -1,0 +1,170 @@
+{
+    "workbench.panel.defaultLocation": "right",
+    "prettier.tabWidth": 4,
+    "vim.smartRelativeLine": true,
+    "editor.cursorSurroundingLines": 5,
+    "vim.leader": " ",
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // Basics: save, quit
+        {
+            "before": ["<leader>", "w"],
+            "commands": ["workbench.action.files.save"]
+        },
+        {
+            "before": ["<leader>", "q"],
+            "commands": ["workbench.action.closeActiveEditor"]
+        },
+
+        // Search inside document
+        {
+            "before": ["<leader>", "f"],
+            "after": ["/"]
+        },
+        {
+            "before": ["<leader>", "r"],
+            "commands": ["editor.action.startFindReplaceAction"]
+        },
+
+        // Beautify code
+        {
+            "before": ["<leader>", "d"],
+            "commands": ["editor.action.formatDocument"]
+        },
+
+        // Go to definition
+        {
+            "before": ["g", "d"],
+            "commands": ["editor.action.revealDefinition"]
+        },
+        {
+            "before": ["g", "D"],
+            "commands": ["editor.action.goToReferences"]
+        },
+
+        // Commenting
+        {
+            "before": ["<leader>", "c"],
+            "commands": ["editor.action.commentLine"]
+        },
+        {
+            "before": ["<leader>", "C"],
+            "commands": ["editor.action.blockComment"]
+        },
+
+        // Sidebar
+        {
+            "before": ["<leader>", "E"],
+            "commands": ["workbench.view.explorer"]
+        },
+        {
+            "before": ["<leader>", "F"],
+            "commands": ["workbench.view.search"]
+        },
+        {
+            "before": ["<leader>", "G"],
+            "commands": ["workbench.view.scm"]
+        },
+        {
+            "before": ["<leader>", "H"],
+            "commands": ["workbench.view.extensions"]
+        },
+        {
+            "before": ["<leader>", "D"],
+            "commands": ["workbench.view.debug"]
+        },
+
+        // Coomand prompt
+        {
+            "before": ["<leader>", "p"],
+            "commands": ["workbench.action.showCommands"]
+        },
+        {
+            "before": ["<leader>", "s", "f"],
+            "commands": ["workbench.action.quickOpen"]
+        },
+
+        // Terminal
+        {
+            "before": ["<leader>", "t"],
+            "commands": ["workbench.action.terminal.toggleTerminal"]
+        },
+        {
+            "before": ["<leader>", "T"],
+            "commands": ["workbench.action.terminal.new"]
+        },
+
+        // Move to the desired tab
+        {
+            "before": ["<leader>", "1"],
+            "commands": ["workbench.action.openEditorAtIndex1"]
+        },
+        {
+            "before": ["<leader>", "2"],
+            "commands": ["workbench.action.openEditorAtIndex2"]
+        },
+        {
+            "before": ["<leader>", "3"],
+            "commands": ["workbench.action.openEditorAtIndex3"]
+        },
+        {
+            "before": ["<leader>", "4"],
+            "commands": ["workbench.action.openEditorAtIndex4"]
+        },
+        {
+            "before": ["<leader>", "5"],
+            "commands": ["workbench.action.openEditorAtIndex5"]
+        },
+        {
+            "before": ["<leader>", "6"],
+            "commands": ["workbench.action.openEditorAtIndex6"]
+        },
+        {
+            "before": ["<leader>", "7"],
+            "commands": ["workbench.action.openEditorAtIndex7"]
+        },
+        {
+            "before": ["<leader>", "8"],
+            "commands": ["workbench.action.openEditorAtIndex8"]
+        },
+        {
+            "before": ["<leader>", "9"],
+            "commands": ["workbench.action.openEditorAtIndex9"]
+        },
+        {
+            "before": ["<leader>", "0"],
+            "commands": ["workbench.action.openEditorAtIndex0"]
+        },
+
+        // Go to errors
+        {
+            "before": ["g", "e"],
+            "commands": ["editor.action.marker.nextInFiles"]
+        },
+        {
+            "before": ["g", "E"],
+            "commands": ["editor.action.marker.prevInFiles"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        // Commenting
+        {
+            "before": ["<leader>", "c"],
+            "commands": ["editor.action.commentLine"]
+        },
+        {
+            "before": ["<leader>", "C"],
+            "commands": ["editor.action.blockComment"]
+        }
+    ],
+    "vim.useSystemClipboard": true,
+    "codesnap-plus.transparentBackground": true,
+    "codesnap-plus.boxShadow": "//rgba(0, 0, 0, 0.55) 0px 20px 68px",
+    "vim.highlightedyank.enable": true,
+    "editor.lineNumbers": "relative",
+}
