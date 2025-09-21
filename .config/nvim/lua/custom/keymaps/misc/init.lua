@@ -13,6 +13,7 @@ vim.keymap.set('n', '<leader>w', ':w<CR>', { desc = '[W]rtie' })
 vim.keymap.set('n', '<leader>q', ':BdOrQuit<CR>', { desc = '[Q]uit' })
 vim.keymap.set('n', '<leader>Q', ':q<CR>', { desc = '[Q]uit' })
 vim.keymap.set('n', '<leader>e', ':Ex<CR>', { desc = '[E]xplore files' })
+vim.keymap.set('n', '<leader>f', '/', { desc = 'Search' })
 
 -- out of insert mode
 vim.keymap.set('i', '<C-s>', '<Esc>:w<CR>', { desc = 'Save' })
