@@ -39,4 +39,5 @@ end, { desc = 'Toggle [d]iagnostics' })
 vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, { desc = 'Cursor [d]iagnostics' })
 
 -- Rename symbol
-map('<leader>rn', vim.lsp.buf.rename, '[R]e[n]ame')
+vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, { desc = '[R]e[n]ame' })
+
