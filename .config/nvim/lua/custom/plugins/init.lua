@@ -58,7 +58,7 @@ return {
         max_delta = {
           line = false, -- Maximum distance for line movements before scroll animation is skipped
           column = false, -- Maximum distance for column movements before scroll animation is skipped
-          time = 200, -- Maximum duration for a movement (in ms)
+          time = 100, -- Maximum duration for a movement (in ms)
         },
         step_size = {
           -- Number of cursor/window lines moved per step

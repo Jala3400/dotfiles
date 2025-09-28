@@ -3,6 +3,7 @@ local opts = { noremap = true, silent = true }
 -- Opening split panes
 vim.keymap.set('n', '<leader>V', ':vsplit<CR>', opts)
 vim.keymap.set('n', '<leader>S', ':split<CR>', opts)
+vim.keymap.set('n', '<leader>T', ':tabnew<CR>', opts)
 
 -- Navigate between splits
 vim.keymap.set('n', '<C-h>', '<C-w>h', opts)
